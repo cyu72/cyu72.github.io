@@ -84,9 +84,32 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 720px 1fr;
+  min-height: 100vh;
+}
+
+.left-col {
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem;
+}
+
+.right-col {
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem;
+}
+
+.right-gif {
+  width: 160px;
+}
+
+main {
   padding: 4rem 2rem;
-  max-width: 720px;
-  margin: 0 auto;
 }
 
 h1 {
@@ -220,4 +243,11 @@ footer {
   margin-top: 1rem;
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+.shark {
+  width: 160px;
+  margin-bottom: 17rem;
+  margin-left: 6rem;
+  transform: rotate(15deg);
 }
